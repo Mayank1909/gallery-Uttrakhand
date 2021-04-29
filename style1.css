@@ -1,0 +1,69 @@
+h1
+{
+	background-color:lightgreen;
+	text-align:center;
+	text-decoration: underline;
+}
+h1:hover
+{
+	color:blue;
+}
+body {
+ margin: 0px;
+padding: Opx;
+font: poppins;
+}
+
+#main {
+ width: 100%;
+ height: 50vh;
+position: relative;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+
+.menu li a{
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: grey;
+}
+.menu li:hover{
+  background-color: #23cdaf;
+  color: white;
+  box-shadow: 5px 10px 30px rgba(24,139,119,0.2)
+}
+div.Gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 380px;
+}
+div.Gallery:hover {
+  border: 3px solid #777;
+}
+
+div.Gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc{
+	text-align: center;
+	background-color: lightblue;
+	
+}
+a{
+	color:black;
+}
+div.developer
+{
+	  color: blue;
+}
